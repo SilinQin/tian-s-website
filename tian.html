@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tian Gencheng — Renowned Chinese Red Robe Artist | Original Masterworks & Student Artworks</title>
+  <meta name="description" content="Tian Gencheng, a celebrated Red Robe artist of the People's Fine Arts Publishing House. Original Chinese ink paintings by the Master and his trained artists. Limited collection pieces for discerning collectors worldwide.">
+  <meta name="keywords" content="Chinese Red Robe artist, Tian Gencheng, 中国大红袍画家, People's Fine Arts Publishing House, authentic Chinese paintings, master artist, Chinese art collector">
+  
+  <meta property="og:title" content="Tian Gencheng — China's Renowned Red Robe Artist">
+  <meta property="og:description" content="Like Xu Beihong and Qi Baishi, Tian Gencheng is a celebrated Red Robe artist published by China's most prestigious art publisher.">
+  <meta property="og:type" content="website">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Tian Gencheng",
+    "alternateName": ["Tian Gen Cheng", "Tian Gencheng"],
+    "birthDate": "1968",
+    "birthPlace": "Zibo, Shandong, China",
+    "nationality": "Chinese",
+    "occupation": "Artist",
+    "description": "Contemporary Chinese ink painter, member of China Artists Association",
+    "memberOf": {
+      "@type": "Organization",
+      "name": "China Artists Association"
+    }
+  }
+  </script>
+  
+  <style>
+    /* ===== RESET & BASE ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    :root {
+      --ink-black: #1a1a1a;
+      --ink-gray: #4a4a4a;
+      --ink-light: #8a8a8a;
+      --paper: #f5f3ef;
+      --paper-dark: #e8e4dc;
+      --accent: #8b4513;
+      --accent-light: #c4956a;
+      --white: #ffffff;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    body {
+      font-family: 'Cormorant Garamond', 'Garamond', 'Times New Roman', Georgia, serif;
+      background-color: var(--paper);
+      color: var(--ink-black);
+      line-height: 1.7;
+      font-size: 18px;
+    }
+    
+    /* ===== TYPOGRAPHY ===== */
+    h1, h2, h3, h4 {
+      font-weight: 400;
+      letter-spacing: 0.02em;
+    }
+    
+    h1 {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      line-height: 1.1;
+    }
+    
+    h2 {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      margin-bottom: 1.5rem;
+    }
+    
+    h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+    
+    p {
+      margin-bottom: 1.2rem;
+    }
+    
+    .subtitle {
+      font-style: italic;
+      color: var(--ink-gray);
+      font-size: 1.2rem;
+    }
+    
+    /* ===== LAYOUT ===== */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+    
+    section {
+      padding: 6rem 0;
+    }
+    
+    /* ===== NAVIGATION ===== */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: rgba(245, 243, 239, 0.95);
+      backdrop-filter: blur(10px);
+      z-index: 1000;
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--paper-dark);
+    }
+    
+    nav .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .logo {
+      font-size: 1.3rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-black);
+      text-decoration: none;
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+    }
+    
+    .nav-links a {
+      color: var(--ink-gray);
+      text-decoration: none;
+      font-size: 0.95rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      transition: color 0.3s;
+    }
+    
+    .nav-links a:hover {
+      color: var(--accent);
+    }
+    
+    .nav-cta {
+      background: var(--ink-black);
+      color: var(--white) !important;
+      padding: 0.7rem 1.5rem;
+      border-radius: 2px;
+      transition: background 0.3s;
+    }
+    
+    .nav-cta:hover {
+      background: var(--accent) !important;
+    }
+    
+    /* Mobile Nav */
+    .menu-toggle {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 0.5rem;
+    }
+    
+    .menu-toggle span {
+      width: 25px;
+      height: 2px;
+      background: var(--ink-black);
+      transition: 0.3s;
+    }
+    
+    /* ===== HERO ===== */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      padding-top: 80px;
+    }
+    
+    .hero-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+    
+    .hero-text {
+      max-width: 600px;
+    }
+    
+    .hero-label {
+      font-size: 0.85rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.5rem;
+    }
+    
+    .hero h1 {
+      margin-bottom: 1.5rem;
+    }
+    
+    .hero-description {
+      font-size: 1.2rem;
+      color: var(--ink-gray);
+      margin-bottom: 2.5rem;
+    }
+    
+    .hero-image {
+      position: relative;
+      height: 70vh;
+      min-height: 500px;
+    }
+    
+    .hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: grayscale(20%);
+    }
+    
+    .hero-image::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border: 1px solid var(--ink-black);
+      pointer-events: none;
+    }
+    
+    /* ===== BUTTONS ===== */
+    .btn {
+      display: inline-block;
+      padding: 1rem 2.5rem;
+      font-size: 0.9rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: all 0.3s;
+      cursor: pointer;
+      border: none;
+      font-family: inherit;
+    }
+    
+    .btn-primary {
+      background: var(--ink-black);
+      color: var(--white);
+    }
+    
+    .btn-primary:hover {
+      background: var(--accent);
+    }
+    
+    .btn-outline {
+      background: transparent;
+      border: 1px solid var(--ink-black);
+      color: var(--ink-black);
+    }
+    
+    .btn-outline:hover {
+      background: var(--ink-black);
+      color: var(--white);
+    }
+    
+    .btn-gold {
+      background: var(--accent);
+      color: var(--white);
+    }
+    
+    .btn-gold:hover {
+      background: var(--ink-black);
+    }
+    
+    /* ===== ABOUT ===== */
+    .about {
+      background: var(--white);
+    }
+    
+    .about-content {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 5rem;
+      align-items: start;
+    }
+    
+    .about-image {
+      position: relative;
+    }
+    
+    .about-image img {
+      width: 100%;
+      aspect-ratio: 3/4;
+      object-fit: cover;
+    }
+    
+    .about-image::before {
+      content: '';
+      position: absolute;
+      top: -20px;
+      left: -20px;
+      right: 20px;
+      bottom: 20px;
+      border: 1px solid var(--accent);
+      z-index: -1;
+    }
+    
+    .credentials {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    
+    .credential {
+      background: var(--paper);
+      padding: 0.5rem 1rem;
+      font-size: 0.85rem;
+      color: var(--ink-gray);
+    }
+    
+    /* ===== PHILOSOPHY ===== */
+    .philosophy {
+      background: var(--ink-black);
+      color: var(--paper);
+    }
+    
+    .philosophy h2 {
+      text-align: center;
+    }
+    
+    .philosophy-intro {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 4rem;
+      font-size: 1.3rem;
+      color: var(--ink-light);
+    }
+    
+    .philosophy-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3rem;
+    }
+    
+    .philosophy-item {
+      text-align: center;
+      padding: 2rem;
+    }
+    
+    .philosophy-icon {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .philosophy-item h3 {
+      margin-bottom: 1rem;
+    }
+    
+    .philosophy-item p {
+      color: var(--ink-light);
+      font-size: 1rem;
+    }
+    
+    /* ===== GALLERY ===== */
+    .gallery {
+      background: var(--paper);
+    }
+    
+    .gallery-header {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+    
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 2rem;
+    }
+    
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      aspect-ratio: 4/5;
+    }
+    
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s, filter 0.5s;
+    }
+    
+    .gallery-item:hover img {
+      transform: scale(1.05);
+      filter: grayscale(0%);
+    }
+    
+    .gallery-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 2rem;
+      background: linear-gradient(transparent, rgba(0,0,0,0.8));
+      color: var(--white);
+      transform: translateY(100%);
+      transition: transform 0.3s;
+    }
+    
+    .gallery-item:hover .gallery-overlay {
+      transform: translateY(0);
+    }
+    
+    .gallery-overlay h3 {
+      margin-bottom: 0.5rem;
+    }
+    
+    .gallery-overlay p {
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.8);
+      margin: 0;
+    }
+    
+    /* ===== SERIES ===== */
+    .series {
+      background: var(--white);
+    }
+    
+    .series-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+    
+    .series-text {
+      order: 2;
+    }
+    
+    .series-image {
+      order: 1;
+    }
+    
+    .series-image img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+    }
+    
+    .series-features {
+      margin: 2rem 0;
+    }
+    
+    .series-features li {
+      list-style: none;
+      padding: 0.8rem 0;
+      border-bottom: 1px solid var(--paper-dark);
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    
+    .series-features li::before {
+      content: '✦';
+      color: var(--accent);
+    }
+    
+    /* ===== EXHIBITIONS ===== */
+    .exhibitions {
+      background: var(--paper-dark);
+    }
+    
+    .exhibitions-header {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+    
+    .timeline {
+      max-width: 800px;
+      margin: 0 auto;
+      position: relative;
+    }
+    
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: var(--ink-light);
+    }
+    
+    .timeline-item {
+      display: flex;
+      gap: 3rem;
+      margin-bottom: 3rem;
+      position: relative;
+    }
+    
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 0;
+      width: 12px;
+      height: 12px;
+      background: var(--accent);
+      border-radius: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .timeline-year {
+      width: calc(50% - 1.5rem);
+      text-align: right;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--accent);
+    }
+    
+    .timeline-content {
+      width: calc(50% - 1.5rem);
+      background: var(--white);
+      padding: 1.5rem;
+    }
+    
+    .timeline-content h3 {
+      margin-bottom: 0.5rem;
+    }
+    
+    .timeline-content p {
+      color: var(--ink-gray);
+      font-size: 0.95rem;
+      margin: 0;
+    }
+    
+    /* ===== COLLECT ===== */
+    .collect {
+      background: var(--ink-black);
+      color: var(--paper);
+      text-align: center;
+    }
+    
+    .collect h2 {
+      color: var(--paper);
+    }
+    
+    .collect-intro {
+      max-width: 700px;
+      margin: 0 auto 3rem;
+      font-size: 1.2rem;
+      color: var(--ink-light);
+    }
+    
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      max-width: 1000px;
+      margin: 0 auto 3rem;
+    }
+    
+    .pricing-card {
+      background: var(--paper);
+      color: var(--ink-black);
+      padding: 2.5rem;
+      text-align: left;
+      transition: transform 0.3s;
+    }
+    
+    .pricing-card:hover {
+      transform: translateY(-10px);
+    }
+    
+    .pricing-card.featured {
+      border: 2px solid var(--accent);
+    }
+    
+    .pricing-card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .pricing-card .price {
+      font-size: 2rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 1.5rem;
+    }
+    
+    .pricing-card .price span {
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--ink-gray);
+    }
+    
+    .pricing-features {
+      list-style: none;
+      margin-bottom: 2rem;
+    }
+    
+    .pricing-features li {
+      padding: 0.5rem 0;
+      color: var(--ink-gray);
+      border-bottom: 1px solid var(--paper-dark);
+    }
+    
+    .pricing-features li::before {
+      content: '✓';
+      color: var(--accent);
+      margin-right: 0.5rem;
+    }
+    
+    /* ===== CONTACT ===== */
+    .contact {
+      background: var(--paper);
+    }
+    
+    .contact-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+    }
+    
+    .contact-info h3 {
+      margin-bottom: 1.5rem;
+    }
+    
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .contact-icon {
+      width: 40px;
+      height: 40px;
+      background: var(--ink-black);
+      color: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+    }
+    
+    .contact-text h4 {
+      font-size: 1rem;
+      margin-bottom: 0.3rem;
+    }
+    
+    .contact-text p {
+      color: var(--ink-gray);
+      margin: 0;
+      font-size: 0.95rem;
+    }
+    
+    .contact-form {
+      background: var(--white);
+      padding: 2.5rem;
+    }
+    
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 1rem;
+      border: 1px solid var(--paper-dark);
+      background: var(--paper);
+      font-family: inherit;
+      font-size: 1rem;
+      transition: border-color 0.3s;
+    }
+    
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+    
+    .form-group textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+    
+    /* ===== FOOTER ===== */
+    footer {
+      background: var(--ink-black);
+      color: var(--ink-light);
+      padding: 4rem 0 2rem;
+      text-align: center;
+    }
+    
+    .footer-logo {
+      font-size: 1.5rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--paper);
+      margin-bottom: 1rem;
+    }
+    
+    .footer-tagline {
+      font-style: italic;
+      margin-bottom: 2rem;
+    }
+    
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+    
+    .footer-links a {
+      color: var(--ink-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.3s;
+    }
+    
+    .footer-links a:hover {
+      color: var(--paper);
+    }
+    
+    .footer-copy {
+      font-size: 0.85rem;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding-top: 2rem;
+    }
+    
+    /* ===== ANIMATIONS ===== */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s, transform 0.8s;
+    }
+    
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 1024px) {
+      .hero-content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+      
+      .hero-image {
+        height: 50vh;
+        min-height: 400px;
+      }
+      
+      .about-content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+      
+      .philosophy-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+      
+      .series-content {
+        grid-template-columns: 1fr;
+      }
+      
+      .series-text {
+        order: 1;
+      }
+      
+      .series-image {
+        order: 2;
+      }
+      
+      .contact-content {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--paper);
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1.5rem;
+        border-bottom: 1px solid var(--paper-dark);
+      }
+      
+      .nav-links.active {
+        display: flex;
+      }
+      
+      .menu-toggle {
+        display: flex;
+      }
+      
+      .timeline::before {
+        left: 0;
+      }
+      
+      .timeline-item {
+        flex-direction: column;
+        gap: 1rem;
+        padding-left: 2rem;
+      }
+      
+      .timeline-item::before {
+        left: 0;
+        transform: none;
+      }
+      
+      .timeline-year,
+      .timeline-content {
+        width: 100%;
+        text-align: left;
+      }
+      
+      section {
+        padding: 4rem 0;
+      }
+    }
+    
+    /* ===== UTILITY ===== */
+    .text-center {
+      text-align: center;
+    }
+    
+    .text-accent {
+      color: var(--accent);
+    }
+  </style>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Cormorant+SC:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <a href="#" class="logo">Tian Gencheng</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#philosophy">Philosophy</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#exhibitions">Exhibitions</a></li>
+        <li><a href="#collect" class="nav-cta">Collect</a></li>
+      </ul>
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+  
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text fade-in">
+          <p class="hero-label">🎨 People's Fine Arts Publishing House — Red Robe Artist</p>
+          <h1>Tian Gencheng</h1>
+          <p class="hero-description">
+            Like Xu Beihong, Qi Baishi, and Zhang Daqian before him, Master Tian is among the select few officially recognized as a <strong>"Red Robe Artist"</strong> — China's highest honor in fine art publishing. His works are collected by museums and discerning collectors worldwide.
+          </p>
+          <p class="subtitle" style="margin-bottom: 2rem;">
+            Featured in <em>"中国当代名家画集" (China's Most Prestigious Art Publication)</em>
+          </p>
+          <a href="#masterpiece" class="btn btn-primary">View Masterworks</a>
+          <a href="#students" class="btn btn-outline" style="margin-left: 1rem;">Explore Student Artworks</a>
+        </div>
+        <div class="hero-image fade-in">
+          <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800&q=80" alt="Lotus painting by Tian Gencheng">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-image fade-in">
+          <img src="https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=600&q=80" alt="Master Tian Gencheng">
+        </div>
+        <div class="about-text fade-in">
+          <h2>The Master</h2>
+          <p class="subtitle">大红袍艺术家 · People's Fine Arts Publishing House</p>
+          <p>
+            <strong>Tian Gencheng</strong> stands among China's most honored living artists. His work has been selected for publication in the <strong>"Red Robe" (大红袍) series</strong> by the People's Fine Arts Publishing House — the same prestigious series that immortalized masters including Xu Beihong, Qi Baishi, Zhang Daqian, and Guan Shan Yue.
+          </p>
+          <p>
+            The "Red Robe" designation represents the highest recognition in Chinese art publishing. Each artist featured has shaped the course of Chinese art history. Master Tian's inclusion places him among these revered figures.
+          </p>
+          <p>
+            Beyond his own artistic mastery, Master Tian dedicates himself to nurturing the next generation of Chinese brush painters. His trained students carry forward his techniques, philosophy, and aesthetic vision — each piece they create bears the lineage of this distinguished master.
+          </p>
+          
+          <div class="credentials">
+            <span class="credential">🎖️ <strong>Red Robe Artist</strong> — 天津人民美术出版社, 2023</span>
+            <span class="credential">Member, China Artists Association</span>
+            <span class="credential">President, Zibo Chinese Painting Society</span>
+            <span class="credential">Featured in 《中国当代名家画集》</span>
+            <span class="credential">Guest Professor, Qingdao University of Science & Technology</span>
+          </div>
+          
+          <div style="background: var(--paper-dark); padding: 1.5rem; margin-top: 1.5rem; border-left: 3px solid var(--accent);">
+            <p style="font-size: 0.95rem; color: var(--ink-gray); margin: 0;">
+              <strong>Verified Publication:</strong><br>
+              《中国当代名家画集·田根承》<br>
+              天津人民美术出版社 · ISBN: 9787572908958 · 2023年1月 · 限量500册
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="masterpiece" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d1810 100%); padding: 6rem 0;">
+    <div class="container">
+      <h2 style="text-align: center; margin-bottom: 1rem; color: #f5f3ef;">What is a "Red Robe" Artist?</h2>
+      <p style="text-align: center; max-width: 900px; margin: 0 auto 3rem; font-size: 1.1rem; color: rgba(255,255,255,0.85);">
+        大红袍 — The most prestigious honor in Chinese art publishing. For over 30 years, the People's Fine Arts Publishing House has selected only the most accomplished masters for this legendary series.
+      </p>
+      
+      <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-bottom: 3rem; text-align: center;">
+        <div class="fade-in" style="background: rgba(139,69,19,0.3); padding: 2rem; border-radius: 8px;">
+          <div style="font-size: 3rem; font-weight: 700; color: #c4956a;">30+</div>
+          <div style="font-size: 0.85rem; color: rgba(255,255,255,0.7); text-transform: uppercase; letter-spacing: 0.1em;">Years of<br>Selection</div>
+        </div>
+        <div class="fade-in" style="background: rgba(139,69,19,0.3); padding: 2rem; border-radius: 8px;">
+          <div style="font-size: 3rem; font-weight: 700; color: #c4956a;">~300</div>
+          <div style="font-size: 0.85rem; color: rgba(255,255,255,0.7); text-transform: uppercase; letter-spacing: 0.1em;">Total Artists<br>Selected</div>
+        </div>
+        <div class="fade-in" style="background: rgba(139,69,19,0.3); padding: 2rem; border-radius: 8px;">
+          <div style="font-size: 3rem; font-weight: 700; color: #c4956a;">3-5</div>
+          <div style="font-size: 0.85rem; color: rgba(255,255,255,0.7); text-transform: uppercase; letter-spacing: 0.1em;">Selected<br>Per Year</div>
+        </div>
+        <div class="fade-in" style="background: rgba(139,69,19,0.3); padding: 2rem; border-radius: 8px;">
+          <div style="font-size: 2.5rem; font-weight: 700; color: #c4956a;">Only<br>Dozens</div>
+          <div style="font-size: 0.85rem; color: rgba(255,255,255,0.7); text-transform: uppercase; letter-spacing: 0.1em;">Living<br>Artists</div>
+        </div>
+      </div>
+      
+      <div style="background: rgba(196,149,106,0.12); border: 1px solid #c4956a; border-radius: 8px; padding: 2rem; margin-bottom: 3rem; text-align: center;">
+        <p style="font-size: 1.2rem; color: #fff; margin: 0; line-height: 1.8;">
+          "From over <strong>3 million</strong> practicing artists in China,<br>
+          only <strong>3 to 5</strong> are selected each year.<br>
+          <strong>Your chance: less than 1 in 600,000</strong>."
+        </p>
+      </div>
+      
+      <div class="philosophy-grid">
+        <div class="philosophy-item fade-in">
+          <div class="philosophy-icon">📚</div>
+          <h3>China's National Publisher</h3>
+          <p>
+            The People's Fine Arts Publishing House (人民美术出版社) is China's state-run art publisher. The Red Robe series is not commercial — it is a historical record of masters who shaped Chinese art.
+          </p>
+        </div>
+        
+        <div class="philosophy-item fade-in">
+          <div class="philosophy-icon">🏆</div>
+          <h3>Among the Immortals</h3>
+          <p>
+            Past honorees read like a who's who: Xu Beihong, Qi Baishi, Zhang Daqian, Guan Shan Yue, Huang Binhong, Fu Baoshi, Li Keran. Master Tian joins this legendary company.
+          </p>
+        </div>
+        
+        <div class="philosophy-item fade-in">
+          <div class="philosophy-icon">✍️</div>
+          <h3>Living Tradition</h3>
+          <p>
+            While most Red Robe artists are historical, Master Tian represents a living legacy. His trained students carry forward techniques that define this prestigious lineage.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="gallery-header">
+        <h2>Selected Works</h2>
+        <p class="subtitle">Each piece is an original, hand-signed artwork on rice paper</p>
+      </div>
+      
+      <div class="gallery-grid">
+        <div class="gallery-item fade-in">
+          <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=600&q=80" alt="Lotus in Autumn">
+          <div class="gallery-overlay">
+            <h3>Autumn Lotus Series</h3>
+            <p>Ink on paper • 68×68cm</p>
+          </div>
+        </div>
+        
+        <div class="gallery-item fade-in">
+          <img src="https://images.unsplash.com/photo-1513519245088-0e12902e35ca?w=600&q=80" alt="Lotus in Autumn II">
+          <div class="gallery-overlay">
+            <h3>Fragance Remains</h3>
+            <p>Ink on paper • 68×136cm</p>
+          </div>
+        </div>
+        
+        <div class="gallery-item fade-in">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Bamboo Studies">
+          <div class="gallery-overlay">
+            <h3>Bamboo in Wind</h3>
+            <p>Ink on paper • 45×68cm</p>
+          </div>
+        </div>
+        
+        <div class="gallery-item fade-in">
+          <img src="https://images.unsplash.com/photo-1549490349-8643362247b5?w=600&q=80" alt="Mountain Landscape">
+          <div class="gallery-overlay">
+            <h3>Mountain Solitude</h3>
+            <p>Ink on paper • 136×68cm</p>
+          </div>
+        </div>
+        
+        <div class="gallery-item fade-in">
+          <img src="https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=600&q=80" alt="Plum Blossom">
+          <div class="gallery-overlay">
+            <h3>Plum Blossom Study</h3>
+            <p>Ink on paper • 50×50cm</p>
+          </div>
+        </div>
+        
+        <div class="gallery-item fade-in">
+          <img src="https://images.unsplash.com/photo-1577083552431-6e5fd01988ec?w=600&q=80" alt="Orchid">
+          <div class="gallery-overlay">
+            <h3>Orchid Pavilion</h3>
+            <p>Ink on paper • 68×68cm</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center" style="margin-top: 3rem;">
+        <a href="#collect" class="btn btn-primary">Request Full Catalog</a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="series" id="students" style="background: var(--paper);">
+    <div class="container">
+      <div class="series-content">
+        <div class="series-image fade-in">
+          <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=700&q=80" alt="Student artwork with Master lineage">
+        </div>
+        <div class="series-text fade-in">
+          <h2>Artworks by Master's Trained Artists</h2>
+          <p class="subtitle">Directly Trained by Tian Gencheng · Authenticated Lineage</p>
+          <p>
+            Each artwork in our collection is created by an artist who has studied directly under Master Tian Gencheng. These trained artists have spent years mastering the techniques, brushwork, and philosophical foundations that define Master Tian's distinctive style.
+          </p>
+          <p>
+            When you acquire one of these pieces, you receive not just a beautiful work of art, but a tangible connection to the lineage of a Red Robe master — a living tradition of Chinese brush painting excellence.
+          </p>
+          
+          <ul class="series-features">
+            <li>Created by artists trained directly under Master Tian</li>
+            <li>Authentic traditional materials: Xuan paper, mineral ink</li>
+            <li>Each piece bears the Master's influence and aesthetic</li>
+            <li>Certificate of lineage authentication included</li>
+            <li>Limited availability — each artist's output is curated</li>
+            <li>Investment potential as the Master's school grows in recognition</li>
+          </ul>
+          
+          <a href="#collect" class="btn btn-gold">Explore Available Artworks</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="exhibitions" id="exhibitions">
+    <div class="container">
+      <div class="exhibitions-header">
+        <h2>Selected Exhibitions</h2>
+        <p class="subtitle">A history of artistic recognition and cultural contribution</p>
+      </div>
+      
+      <div class="timeline">
+        <div class="timeline-item fade-in">
+          <div class="timeline-year">2023</div>
+          <div class="timeline-content">
+            <h3>Selected for "China Contemporary Masters" Red Robe Series</h3>
+            <p>People's Fine Arts Publishing House — Featured in the prestigious Red Robe collection</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item fade-in">
+          <div class="timeline-year">2019</div>
+          <div class="timeline-content">
+            <h3>Summer Solstice: Lotus Breeze</h3>
+            <p>Solo exhibition at Shandong Yunlong Art Museum, featuring 75 recent lotus paintings</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item fade-in">
+          <div class="timeline-year">2018</div>
+          <div class="timeline-content">
+            <h3>Thus View: Tian Gencheng Chinese Painting Exhibition</h3>
+            <p>Solo exhibition at Shandong Yunlong Art Museum</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item fade-in">
+          <div class="timeline-year">2016</div>
+          <div class="timeline-content">
+            <h3>Eighth International Art Exchange Exhibition</h3>
+            <p>Changliu Art Museum, Taiwan • Xiamen University Art Academy</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item fade-in">
+          <div class="timeline-year">2014</div>
+          <div class="timeline-content">
+            <h3>First Bada Shanren Art Exhibition</h3>
+            <p>National Fine Arts Exhibition • Award winner</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item fade-in">
+          <div class="timeline-year">2008</div>
+          <div class="timeline-content">
+            <h3>China Artists Association Master Workshop Graduation Exhibition</h3>
+            <p>China Art Museum, Beijing • Excellence Award winner</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="collect" id="collect">
+    <div class="container">
+      <h2>Acquire an Original Work</h2>
+      <p class="collect-intro">
+        Every piece in our collection is an authentic original, created using traditional Chinese painting materials and techniques. Whether from the Master's own hand or his trained artists, each work carries the lineage of a Red Robe master.
+      </p>
+      
+      <div class="pricing-grid">
+        <div class="pricing-card fade-in">
+          <h3>Student Collection</h3>
+          <p style="font-size: 0.9rem; color: var(--ink-gray); margin-bottom: 0.5rem;">Trained by Master Tian Gencheng</p>
+          <div class="price">$500 – $3,000 <span>CAD</span></div>
+          <ul class="pricing-features">
+            <li>Original ink on Xuan paper</li>
+            <li>Standard sizes available</li>
+            <li>Certificate of Master's lineage</li>
+            <li>Artist biography included</li>
+            <li>Care instructions</li>
+            <li>Worldwide shipping (insured)</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary" style="width: 100%; text-align: center;">Inquire Now</a>
+        </div>
+        
+        <div class="pricing-card featured fade-in">
+          <h3>Master's Direct Works</h3>
+          <p style="font-size: 0.9rem; color: var(--ink-gray); margin-bottom: 0.5rem;">By Tian Gencheng · Red Robe Artist</p>
+          <div class="price">$5,000 – $25,000 <span>CAD</span></div>
+          <ul class="pricing-features">
+            <li>Original Master paintings</li>
+            <li>Custom sizing available</li>
+            <li>Personalized inscription option</li>
+            <li>Video authentication from Master</li>
+            <li>Priority shipping & handling</li>
+            <li>Framing consultation included</li>
+          </ul>
+          <a href="#contact" class="btn btn-gold" style="width: 100%; text-align: center;">Inquire Now</a>
+        </div>
+        
+        <div class="pricing-card fade-in">
+          <h3>Custom Commission</h3>
+          <p style="font-size: 0.9rem; color: var(--ink-gray); margin-bottom: 0.5rem;">Your vision, Master's guidance</p>
+          <div class="price">Starting at $3,000 <span>CAD</span></div>
+          <ul class="pricing-features">
+            <li>Specify subject & dimensions</li>
+            <li>Student or Master execution</li>
+            <li>Collaboration with our studio</li>
+            <li>6-12 week delivery</li>
+            <li>Process documentation</li>
+            <li>Full provenance & certificate</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline" style="width: 100%; text-align: center; border-color: var(--paper); color: var(--ink-black);">Discuss Your Vision</a>
+        </div>
+      </div>
+      
+      <p style="color: var(--ink-light); font-size: 0.95rem; max-width: 600px; margin: 0 auto; margin-top: 2rem;">
+        💡 <em>Investment Note: As Master Tian's international recognition grows, works by his trained artists are expected to appreciate in value — similar to how early works by students of the Old Masters became valuable in their own right.</em>
+      </p>
+    </div>
+  </section>
+  
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-content">
+        <div class="contact-info fade-in">
+          <h2>Get in Touch</h2>
+          <p style="margin-bottom: 2rem; color: var(--ink-gray);">
+            Whether you're a collector, gallery, or someone seeking to bring the tranquility of traditional Chinese art into your space, we welcome your inquiry.
+          </p>
+          
+          <div class="contact-item">
+            <div class="contact-icon">✉</div>
+            <div class="contact-text">
+              <h4>Email</h4>
+              <p>collect@tiangencheng.art</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">🌐</div>
+            <div class="contact-text">
+              <h4>WeChat</h4>
+              <p>@tianartcollection</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div class="contact-text">
+              <h4>Studio Location</h4>
+              <p>Zibo, Shandong Province, China<br>Viewings by appointment only</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">📜</div>
+            <div class="contact-text">
+              <h4>Lineage</h4>
+              <p>All artworks carry authentication<br>from Master Tian's studio</p>
+            </div>
+          </div>
+          
+          <div style="background: var(--paper); padding: 1.5rem; margin-top: 2rem; border-left: 3px solid var(--accent);">
+            <p style="font-style: italic; color: var(--ink-gray); margin: 0; font-size: 0.95rem;">
+              "To own a work from the lineage of a Red Robe master is to hold a piece of Chinese artistic heritage — whether from the Master's own hand or the hands of those he has trained to carry forward this tradition."
+            </p>
+          </div>
+        </div>
+        
+        <div class="contact-form fade-in">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="interest">I'm interested in</label>
+              <select id="interest" name="interest">
+                <option value="">Select an option...</option>
+                <option value="collection">Collection Pieces ($800-$3,000)</option>
+                <option value="premium">Premium Collection ($3,000-$10,000)</option>
+                <option value="commission">Custom Commission</option>
+                <option value="gallery">Gallery Partnership</option>
+                <option value="other">Other Inquiry</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Inquiry</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="container">
+      <div class="footer-logo">Tian Gencheng</div>
+      <p class="footer-tagline">Contemporary Chinese Ink Painting</p>
+      
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#philosophy">Philosophy</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#exhibitions">Exhibitions</a>
+        <a href="#collect">Collect</a>
+        <a href="#contact">Contact</a>
+      </div>
+      
+      <p class="footer-copy">
+        © 2025 Tian Gencheng Art Studio. All rights reserved.<br>
+        <span style="font-size: 0.8rem;">大红袍艺术家 · People's Fine Arts Publishing House</span>
+      </p>
+    </div>
+  </footer>
+  
+  <script>
+    // Mobile menu toggle
+    function toggleMenu() {
+      const navLinks = document.getElementById('navLinks');
+      navLinks.classList.toggle('active');
+    }
+    
+    // Close mobile menu on link click
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('navLinks').classList.remove('active');
+      });
+    });
+    
+    // Scroll animations
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, observerOptions);
+    
+    document.querySelectorAll('.fade-in').forEach(el => {
+      observer.observe(el);
+    });
+    
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+    
+    // Form submission (placeholder - connect to actual service)
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thank you for your inquiry! We will respond within 24-48 hours.');
+      this.reset();
+    });
+    
+    // Nav background on scroll
+    window.addEventListener('scroll', () => {
+      const nav = document.querySelector('nav');
+      if (window.scrollY > 100) {
+        nav.style.boxShadow = '0 2px 20px rgba(0,0,0,0.1)';
+      } else {
+        nav.style.boxShadow = 'none';
+      }
+    });
+  </script>
+</body>
+</html>
